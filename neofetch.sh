@@ -960,7 +960,7 @@ get_cpu() {
 }
 
 get_memory() {
-    ram="10MiB / 4718592MiB"
+    memory="10MiB / 4718592MiB"
 }
 
 get_distro() {
