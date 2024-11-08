@@ -951,12 +951,12 @@ get_os() {
 }
 
 get_model() {
-    model="PowerEdge R6615"
+    model="X570M Pro4"
 }
 #9754
 
 get_cpu() {
-    cpu="AMD EPYC 9754 (256) @ 2.249Ghz"
+    cpu="AMD Ryzen 9 5950X (32) @ 3.400Ghz"
 }
 
 #memory="10MiB / 4718592MiB"
@@ -1091,7 +1091,7 @@ get_memory() {
         ;;
     esac
 
-    memory="${mem_used}${mem_label:-MiB} / 4718592MiB"
+    memory="${mem_used}${mem_label:-MiB} / 131072MiB"
 
     # Bars.
     case $memory_display in
